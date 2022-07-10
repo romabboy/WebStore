@@ -1,0 +1,24 @@
+.bagCards{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    border:2px solid black;
+    margin: 0 0 10px 0;
+
+    .bagCards__main{
+        flex: 1 1 auto;
+    }
+
+    .bagCards__img{
+        width: 200px;
+        position: relative;
+
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+

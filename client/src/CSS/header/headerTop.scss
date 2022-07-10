@@ -1,0 +1,46 @@
+.headerTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    height: 38px;
+    background: #313131;
+
+    .headerTop__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+
+    .headerTop__nav{
+        a{
+            color: white;
+        }
+
+        a:not(:last-child){
+            margin: 0 30px 0 0;
+        }
+    }
+
+    .headerTop__list{
+        display: flex;
+        margin-bottom: 0;
+
+        a{
+            color: white;
+            padding-left: 10px;
+        }
+
+        li:not(:last-child){
+            margin: 0 30px 0 0;
+        }
+
+    }
+
+
+}

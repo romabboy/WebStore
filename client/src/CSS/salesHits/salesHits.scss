@@ -1,0 +1,11 @@
+@import "./card.scss";
+
+.cardsArea{
+    display: flex;
+    flex-wrap: wrap;
+
+    *{
+        flex: 0 1 25%;
+    }
+    
+}

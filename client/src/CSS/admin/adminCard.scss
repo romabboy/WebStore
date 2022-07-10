@@ -1,0 +1,39 @@
+.admin__RemoveItems{
+    display: flex;
+    flex-wrap: wrap;
+
+    &>*{
+        flex: 0 1 25%;
+        
+    }
+
+   
+}
+
+.adminCard{
+    
+    .adminCard__Img{
+        max-width: 150px;
+        max-height: 150px;
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+.modal__remove{
+    display: none;
+
+    &.show{
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+}
